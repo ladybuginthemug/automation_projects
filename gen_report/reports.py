@@ -7,9 +7,6 @@ from reportlab.lib import colors
 from reportlab.graphics.charts.piecharts import Pie
 from reportlab.graphics.shapes import Drawing
 
-
-
-
 def generate(filename, title, additional_info, table_data):
 
     styles = getSampleStyleSheet()

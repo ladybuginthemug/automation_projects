@@ -31,14 +31,15 @@ file.close()
 errors = sorted(errors.items(), key = operator.itemgetter(1), reverse=True)
 per_user = [(key,val[0],val[1])for key, val in sorted(per_user.items(), key = operator.itemgetter(0))]
 
-with open("error_message.csv", 'w+') as errors_file:
+with open("../csv/error_message.csv", 'w+') as errors_file:
     writer = csv.writer(errors_file)
     writer.writerow(("Error", "Count"))
     writer.writerows(errors)
 errors_file.close()
 
-with open("user_statistics.csv", 'w+') as users_file:
+with open("../csv/user_statistics.csv", 'w+') as users_file:
     writer = csv.writer(users_file)
     writer.writerow(("Username", "INFO", "ERROR"))
     writer.writerows(per_user)
+
 users_file.close()

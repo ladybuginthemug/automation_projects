@@ -10,7 +10,6 @@ usage() {
     exit 1
 }
 
-
 extension=""
 filename=""
 new_extension=""
@@ -18,18 +17,10 @@ new_extension=""
 
 while getopts "f:e:n:h" opt; do
     case "$opt" in
-        f)
-            filename="$OPTARG"
-            ;;
-        e)
-            extension="$OPTARG"
-            ;;
-        n)
-            new_extension="$OPTARG"
-            ;;
-        h)
-            usage
-            ;;
+        f ) filename="$OPTARG"   ;;
+        e ) extension="$OPTARG" ;;
+        n ) new_extension="$OPTARG" ;;
+        h ) usage ;;
     esac
 done
 
@@ -40,8 +31,8 @@ confirm_action() {
     while true; do
         read -p "Do you want to rename \"$1\"? (yes/no): " choice
         case "$choice" in
-            [Yy]* ) return 0;; # User confirmed
-            [Nn]* ) return 1;; # User declined
+            [Yy]* ) return 0 ;;
+            [Nn]* ) return 1 ;;
             * ) echo "Please answer yes or no.";;
         esac
     done
@@ -50,7 +41,6 @@ confirm_action() {
 
 if [ -z "$extension" ] && [ -z "$filename" ]; then
     echo "Error: Please specify an extension or a file name"
-    
     usage
 fi
 
@@ -58,6 +48,7 @@ fi
 
 if [ -n "$filename" ]; then
     for file in "$filename".*; do
+
         if [ -f "$file" ]; then
             base_name=$(basename "$file")
             new_name="${base_name%.*}.$new_extension"
@@ -69,6 +60,7 @@ if [ -n "$filename" ]; then
                 echo "Skipped: $file"
             fi
         fi
+
     done
 fi
 
@@ -85,6 +77,7 @@ if [ -n "$extension" ]; then
             else 
                 echo "Skipped: $file"
             fi
+
         fi
     done
 fi

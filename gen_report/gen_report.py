@@ -4,7 +4,7 @@ import collections
 import json
 import locale
 import os.path
-import emails, reports
+import reports
 import sys
 
 
@@ -27,6 +27,9 @@ def process_data(data):
     max_sales = {"total_sales": 0}
     max_revenue = {"revenue": 0}
     car_year_sales = collections.defaultdict(int)
+
+    max_car_sales_year = (0, 0)
+
     for item in data:
         # We need to convert "$1234.56" into 1234.56
         item_price = locale.atof(item["price"].strip("$"))
@@ -36,16 +39,18 @@ def process_data(data):
             max_revenue = item
         if item["total_sales"] > max_sales["total_sales"]:
             max_sales = item
-            car_year_sales[item["car"]["car_year"]] += item["total_sales"]
-            max_car_sales_year = (0, 0)
+
+        car_year_sales[item["car"]["car_year"]] += item["total_sales"]
 
     for year, sales in car_year_sales.items():
         if sales > max_car_sales_year[1]:
             max_car_sales_year = (year, sales)
 
-    summary = ["The {} generated the most revenue: ${}".format(format_car(max_revenue["car"]), max_revenue["revenue"]),
-               "The {} had the most sales: {}".format(format_car(max_sales["car"]), max_sales["total_sales"]),
-               "The most popular year was {} with {} sales.".format(max_car_sales_year[0], max_car_sales_year[1])]
+    summary = [
+        "The {} generated the most revenue: ${}".format(format_car(max_revenue["car"]), max_revenue["revenue"]),
+        "The {} had the most sales: {}".format(format_car(max_sales["car"]), max_sales["total_sales"]),
+        "The most popular year was {} with {} sales.".format(max_car_sales_year[0], max_car_sales_year[1])
+    ]
     return summary
 
 
@@ -57,8 +62,8 @@ def cars_dict_to_table(car_data):
     return table_data
 
 
-def main(argv):
-    data = load_data("car_sales.json")
+def main():
+    data = load_data("random_data.json")
     summary = process_data(data)
 
     # Generate a paragraph that contains the necessary summary
@@ -70,6 +75,10 @@ def main(argv):
     attachment = "cars.pdf"
     reports.generate(attachment, title, paragraph, table_data)
 
+
+if __name__ == "__main__":
+    main()
+
     # Send the email
     #sender = "automation@example.com"
     #receiver = "{}@example.com".format(os.environ.get('USER'))
@@ -78,5 +87,5 @@ def main(argv):
     #emails.send(message)
 
 
-if __name__ == "__main__":
-    main(sys.argv)
+#if __name__ == "__main__":
+#    main(sys.argv)

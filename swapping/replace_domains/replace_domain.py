@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 import re
 import csv
 
@@ -20,9 +21,17 @@ def replace_domain(address, old_domain, new_domain):
 
 def main():
     """Processes the list of emails, replacing any instances of the old domain with the new domain."""
-    old_domain, new_domain = 'abc.edu', 'xyz.edu'
-    csv_file_location = 'data/user_emails.csv'
-    report_file = 'updated_user_emails.csv'
+    parser = argparse.ArgumentParser( description='Process a list of emails, replacing instances of the old domain with the new domain.')
+    parser.add_argument('-o', '--old_domain', help='Old domain to replace', required=True)
+    parser.add_argument('-n', '--new_domain', help='New domain to use', required=True)
+    parser.add_argument('-c', '--csv_file_location', help='CSV file location', required=True)
+    parser.add_argument('-r', '--report_file', help='Report file location (optional)')
+    args = parser.parse_args()
+
+    old_domain, new_domain = args.old_domain, args.new_domain
+    csv_file_location = args.csv_file_location
+    report_file = args.report_file if args.report_file else 'updated_user_emails.csv'
+
     user_email_list = []
     old_domain_email_list = []
     new_domain_email_list = []

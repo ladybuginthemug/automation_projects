@@ -6,7 +6,6 @@ import os.path
 import smtplib
 import ssl
 
-
 def generate(subject, body, attachment_path):
     """Creates an email with an attachement."""
     # Basic Email formatting

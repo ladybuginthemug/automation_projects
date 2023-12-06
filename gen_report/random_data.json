@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "car": {
+      "car_make": "Jeep",
+      "car_model": "Jetta",
+      "car_year": 2007
+    },
+    "price": "$12547.15",
+    "total_sales": 370
+  },
+  {
+    "id": 2,
+    "car": {
+      "car_make": "Volvo",
+      "car_model": "RX",
+      "car_year": 2007
+    },
+    "price": "$17043.11",
+    "total_sales": 986
+  },
+  {
+    "id": 3,
+    "car": {
+      "car_make": "Honda",
+      "car_model": "Elantra",
+      "car_year": 2005
+    },
+    "price": "$14985.50",
+    "total_sales": 586
+  },
+  {
+    "id": 4,
+    "car": {
+      "car_make": "Chevrolet",
+      "car_model": "Mazda6",
+      "car_year": 2001
+    },
+    "price": "$12980.15",
+    "total_sales": 1101
+  },
+  {
+    "id": 5,
+    "car": {
+      "car_make": "Honda",
+      "car_model": "300",
+      "car_year": 2008
+    },
+    "price": "$5136.73",
+    "total_sales": 519
+  },
+  {
+    "id": 6,
+    "car": {
+      "car_make": "Volkswagen",
+      "car_model": "Accord",
+      "car_year": 2009
+    },
+    "price": "$6541.87",
+    "total_sales": 596
+  },
+  {
+    "id": 7,
+    "car": {
+      "car_make": "Chevrolet",
+      "car_model": "QX",
+      "car_year": 1999
+    },
+    "price": "$16142.95",
+    "total_sales": 1058
+  },
+  {
+    "id": 8,
+    "car": {
+      "car_make": "Infiniti",
+      "car_model": "Quattroporte",
+      "car_year": 2004
+    },
+    "price": "$18930.61",
+    "total_sales": 481
+  },
+  {
+    "id": 9,
+    "car": {
+      "car_make": "Audi",
+      "car_model": "Outback",
+      "car_year": 2004
+    },
+    "price": "$16993.22",
+    "total_sales": 1017
+  },
+  {
+    "id": 10,
+    "car": {
+      "car_make": "Mercedes-Benz",
+      "car_model": "1500",
+      "car_year": 2004
+    },
+    "price": "$9476.29",
+    "total_sales": 612
+  },
+  {
+    "id": 11,
+    "car": {
+      "car_make": "Ram",
+      "car_model": "Jetta",
+      "car_year": 2008
+    },
+    "price": "$7421.78",
+    "total_sales": 1060
+  },
+  {
+    "id": 12,
+    "car": {
+      "car_make": "Mazda",
+      "car_model": "RX",
+      "car_year": 1995
+    },
+    "price": "$5224.12",
+    "total_sales": 369
+  },
+  {
+    "id": 13,
+    "car": {
+      "car_make": "Acura",
+      "car_model": "1500",
+      "car_year": 1997
+    },
+    "price": "$14021.72",
+    "total_sales": 1082
+  },
+  {
+    "id": 14,
+    "car": {
+      "car_make": "Maybach",
+      "car_model": "62",
+      "car_year": 2010
+    },
+    "price": "$12139.82",
+    "total_sales": 900
+  },
+  {
+    "id": 15,
+    "car": {
+      "car_make": "GMC",
+      "car_model": "Murci\u00e9lago",
+      "car_year": 2009
+    },
+    "price": "$17591.05",
+    "total_sales": 478
+  },
+  {
+    "id": 16,
+    "car": {
+      "car_make": "Mercedes-Benz",
+      "car_model": "3 Series",
+      "car_year": 1969
+    },
+    "price": "$13959.86",
+    "total_sales": 761
+  },
+  {
+    "id": 17,
+    "car": {
+      "car_make": "Volkswagen",
+      "car_model": "Optima",
+      "car_year": 2004
+    },
+    "price": "$9589.78",
+    "total_sales": 756
+  },
+  {
+    "id": 18,
+    "car": {
+      "car_make": "Toyota",
+      "car_model": "3 Series",
+      "car_year": 2004
+    },
+    "price": "$19690.25",
+    "total_sales": 956
+  },
+  {
+    "id": 19,
+    "car": {
+      "car_make": "Lexus",
+      "car_model": "A6",
+      "car_year": 1995
+    },
+    "price": "$8518.84",
+    "total_sales": 923
+  },
+  {
+    "id": 20,
+    "car": {
+      "car_make": "Volvo",
+      "car_model": "Accord",
+      "car_year": 2007
+    },
+    "price": "$13395.65",
+    "total_sales": 910
+  },
+  {
+    "id": 21,
+    "car": {
+      "car_make": "Saturn",
+      "car_model": "1500",
+      "car_year": 1999
+    },
+    "price": "$11304.71",
+    "total_sales": 1175
+  },
+  {
+    "id": 22,
+    "car": {
+      "car_make": "Chrysler",
+      "car_model": "RX",
+      "car_year": 2004
+    },
+    "price": "$11975.10",
+    "total_sales": 370
+  },
+  {
+    "id": 23,
+    "car": {
+      "car_make": "Saturn",
+      "car_model": "Altima",
+      "car_year": 2006
+    },
+    "price": "$12978.73",
+    "total_sales": 766
+  },
+  {
+    "id": 24,
+    "car": {
+      "car_make": "Mercedes-Benz",
+      "car_model": "Grand Cherokee",
+      "car_year": 2011
+    },
+    "price": "$17148.63",
+    "total_sales": 701
+  },
+  {
+    "id": 25,
+    "car": {
+      "car_make": "Maserati",
+      "car_model": "C-Class",
+      "car_year": 1969
+    },
+    "price": "$16751.87",
+    "total_sales": 928
+  },
+  {
+    "id": 26,
+    "car": {
+      "car_make": "Plymouth",
+      "car_model": "1500",
+      "car_year": 1995
+    },
+    "price": "$19261.44",
+    "total_sales": 1099
+  },
+  {
+    "id": 27,
+    "car": {
+      "car_make": "Lexus",
+      "car_model": "300",
+      "car_year": 2001
+    },
+    "price": "$9575.43",
+    "total_sales": 432
+  },
+  {
+    "id": 28,
+    "car": {
+      "car_make": "Land Rover",
+      "car_model": "RX",
+      "car_year": 1997
+    },
+    "price": "$14437.27",
+    "total_sales": 998
+  },
+  {
+    "id": 29,
+    "car": {
+      "car_make": "Infiniti",
+      "car_model": "XC90",
+      "car_year": 2010
+    },
+    "price": "$12317.95",
+    "total_sales": 1061
+  },
+  {
+    "id": 30,
+    "car": {
+      "car_make": "Jeep",
+      "car_model": "Quattroporte",
+      "car_year": 2010
+    },
+    "price": "$9351.08",
+    "total_sales": 504
+  },
+  {
+    "id": 31,
+    "car": {
+      "car_make": "Lamborghini",
+      "car_model": "Grand Cherokee",
+      "car_year": 2001
+    },
+    "price": "$6679.42",
+    "total_sales": 1078
+  },
+  {
+    "id": 32,
+    "car": {
+      "car_make": "Mazda",
+      "car_model": "Continental GT",
+      "car_year": 2006
+    },
+    "price": "$12914.23",
+    "total_sales": 456
+  },
+  {
+    "id": 33,
+    "car": {
+      "car_make": "Mazda",
+      "car_model": "QX",
+      "car_year": 2010
+    },
+    "price": "$13384.82",
+    "total_sales": 316
+  },
+  {
+    "id": 34,
+    "car": {
+      "car_make": "Toyota",
+      "car_model": "Range Rover",
+      "car_year": 2006
+    },
+    "price": "$7911.85",
+    "total_sales": 769
+  },
+  {
+    "id": 35,
+    "car": {
+      "car_make": "Mercedes-Benz",
+      "car_model": "Quattroporte",
+      "car_year": 2006
+    },
+    "price": "$10862.94",
+    "total_sales": 955
+  },
+  {
+    "id": 36,
+    "car": {
+      "car_make": "Jeep",
+      "car_model": "Camry",
+      "car_year": 2010
+    },
+    "price": "$13517.32",
+    "total_sales": 828
+  },
+  {
+    "id": 37,
+    "car": {
+      "car_make": "Maserati",
+      "car_model": "62",
+      "car_year": 2003
+    },
+    "price": "$6546.82",
+    "total_sales": 1059
+  },
+  {
+    "id": 38,
+    "car": {
+      "car_make": "Chevrolet",
+      "car_model": "62",
+      "car_year": 1997
+    },
+    "price": "$17989.64",
+    "total_sales": 1049
+  },
+  {
+    "id": 39,
+    "car": {
+      "car_make": "Mercedes-Benz",
+      "car_model": "Cavalier",
+      "car_year": 2008
+    },
+    "price": "$12361.49",
+    "total_sales": 818
+  },
+  {
+    "id": 40,
+    "car": {
+      "car_make": "Ram",
+      "car_model": "Camry",
+      "car_year": 2005
+    },
+    "price": "$8600.65",
+    "total_sales": 841
+  },
+  {
+    "id": 41,
+    "car": {
+      "car_make": "Lexus",
+      "car_model": "Murci\u00e9lago",
+      "car_year": 2012
+    },
+    "price": "$6345.71",
+    "total_sales": 996
+  },
+  {
+    "id": 42,
+    "car": {
+      "car_make": "Mercedes-Benz",
+      "car_model": "62",
+      "car_year": 2002
+    },
+    "price": "$17989.85",
+    "total_sales": 869
+  },
+  {
+    "id": 43,
+    "car": {
+      "car_make": "Ford",
+      "car_model": "300",
+      "car_year": 1999
+    },
+    "price": "$7935.96",
+    "total_sales": 908
+  },
+  {
+    "id": 44,
+    "car": {
+      "car_make": "GMC",
+      "car_model": "Cavalier",
+      "car_year": 2003
+    },
+    "price": "$10322.23",
+    "total_sales": 421
+  },
+  {
+    "id": 45,
+    "car": {
+      "car_make": "Hyundai",
+      "car_model": "Altima",
+      "car_year": 1969
+    },
+    "price": "$5366.15",
+    "total_sales": 340
+  },
+  {
+    "id": 46,
+    "car": {
+      "car_make": "Bentley",
+      "car_model": "62",
+      "car_year": 2010
+    },
+    "price": "$12324.30",
+    "total_sales": 714
+  },
+  {
+    "id": 47,
+    "car": {
+      "car_make": "Lamborghini",
+      "car_model": "Camry",
+      "car_year": 2005
+    },
+    "price": "$8277.16",
+    "total_sales": 610
+  },
+  {
+    "id": 48,
+    "car": {
+      "car_make": "Jeep",
+      "car_model": "Safari",
+      "car_year": 2006
+    },
+    "price": "$17530.03",
+    "total_sales": 510
+  },
+  {
+    "id": 49,
+    "car": {
+      "car_make": "Maserati",
+      "car_model": "300",
+      "car_year": 2008
+    },
+    "price": "$17292.73",
+    "total_sales": 730
+  },
+  {
+    "id": 50,
+    "car": {
+      "car_make": "Mazda",
+      "car_model": "3 Series",
+      "car_year": 2004
+    },
+    "price": "$12713.78",
+    "total_sales": 1198
+  },
+  {
+    "id": 51,
+    "car": {
+      "car_make": "Hyundai",
+      "car_model": "TL",
+      "car_year": 1997
+    },
+    "price": "$7300.47",
+    "total_sales": 491
+  },
+  {
+    "id": 52,
+    "car": {
+      "car_make": "Kia",
+      "car_model": "Elantra",
+      "car_year": 2009
+    },
+    "price": "$17354.44",
+    "total_sales": 1005
+  },
+  {
+    "id": 53,
+    "car": {
+      "car_make": "Lamborghini",
+      "car_model": "3 Series",
+      "car_year": 2008
+    },
+    "price": "$8821.86",
+    "total_sales": 1022
+  },
+  {
+    "id": 54,
+    "car": {
+      "car_make": "Acura",
+      "car_model": "Camry",
+      "car_year": 2006
+    },
+    "price": "$8046.43",
+    "total_sales": 568
+  },
+  {
+    "id": 55,
+    "car": {
+      "car_make": "Chevrolet",
+      "car_model": "A6",
+      "car_year": 2009
+    },
+    "price": "$18833.29",
+    "total_sales": 423
+  },
+  {
+    "id": 56,
+    "car": {
+      "car_make": "Plymouth",
+      "car_model": "Outback",
+      "car_year": 2003
+    },
+    "price": "$6804.12",
+    "total_sales": 1064
+  },
+  {
+    "id": 57,
+    "car": {
+      "car_make": "Ram",
+      "car_model": "RX",
+      "car_year": 2007
+    },
+    "price": "$5590.05",
+    "total_sales": 363
+  },
+  {
+    "id": 58,
+    "car": {
+      "car_make": "Subaru",
+      "car_model": "Continental GT",
+      "car_year": 1969
+    },
+    "price": "$14345.75",
+    "total_sales": 427
+  },
+  {
+    "id": 59,
+    "car": {
+      "car_make": "GMC",
+      "car_model": "Outback",
+      "car_year": 2004
+    },
+    "price": "$19148.13",
+    "total_sales": 445
+  },
+  {
+    "id": 60,
+    "car": {
+      "car_make": "Maybach",
+      "car_model": "Eclipse",
+      "car_year": 2005
+    },
+    "price": "$14049.00",
+    "total_sales": 706
+  },
+  {
+    "id": 61,
+    "car": {
+      "car_make": "Lexus",
+      "car_model": "RX",
+      "car_year": 2004
+    },
+    "price": "$18340.59",
+    "total_sales": 855
+  },
+  {
+    "id": 62,
+    "car": {
+      "car_make": "Subaru",
+      "car_model": "Mazda6",
+      "car_year": 2006
+    },
+    "price": "$13463.09",
+    "total_sales": 805
+  },
+  {
+    "id": 63,
+    "car": {
+      "car_make": "Mercedes-Benz",
+      "car_model": "Murci\u00e9lago",
+      "car_year": 2002
+    },
+    "price": "$14207.04",
+    "total_sales": 724
+  },
+  {
+    "id": 64,
+    "car": {
+      "car_make": "GMC",
+      "car_model": "Uplander",
+      "car_year": 2006
+    },
+    "price": "$10658.96",
+    "total_sales": 847
+  },
+  {
+    "id": 65,
+    "car": {
+      "car_make": "Ram",
+      "car_model": "Outback",
+      "car_year": 2002
+    },
+    "price": "$5774.95",
+    "total_sales": 1027
+  },
+  {
+    "id": 66,
+    "car": {
+      "car_make": "Chevrolet",
+      "car_model": "Accord",
+      "car_year": 2005
+    },
+    "price": "$8950.56",
+    "total_sales": 589
+  },
+  {
+    "id": 67,
+    "car": {
+      "car_make": "Lexus",
+      "car_model": "Eclipse",
+      "car_year": 1999
+    },
+    "price": "$14889.53",
+    "total_sales": 994
+  },
+  {
+    "id": 68,
+    "car": {
+      "car_make": "Kia",
+      "car_model": "Murci\u00e9lago",
+      "car_year": 2007
+    },
+    "price": "$16180.81",
+    "total_sales": 329
+  },
+  {
+    "id": 69,
+    "car": {
+      "car_make": "Chevrolet",
+      "car_model": "Elantra",
+      "car_year": 2006
+    },
+    "price": "$11792.09",
+    "total_sales": 344
+  },
+  {
+    "id": 70,
+    "car": {
+      "car_make": "Plymouth",
+      "car_model": "Club Wagon",
+      "car_year": 2001
+    },
+    "price": "$10443.71",
+    "total_sales": 460
+  },
+  {
+    "id": 71,
+    "car": {
+      "car_make": "Chrysler",
+      "car_model": "Mazda6",
+      "car_year": 2012
+    },
+    "price": "$8338.39",
+    "total_sales": 922
+  },
+  {
+    "id": 72,
+    "car": {
+      "car_make": "Maybach",
+      "car_model": "Continental GT",
+      "car_year": 2004
+    },
+    "price": "$13969.60",
+    "total_sales": 1169
+  },
+  {
+    "id": 73,
+    "car": {
+      "car_make": "Lamborghini",
+      "car_model": "62",
+      "car_year": 2008
+    },
+    "price": "$11065.93",
+    "total_sales": 924
+  },
+  {
+    "id": 74,
+    "car": {
+      "car_make": "GMC",
+      "car_model": "C-Class",
+      "car_year": 1999
+    },
+    "price": "$17895.04",
+    "total_sales": 973
+  },
+  {
+    "id": 75,
+    "car": {
+      "car_make": "GMC",
+      "car_model": "Mazda6",
+      "car_year": 2007
+    },
+    "price": "$10507.27",
+    "total_sales": 552
+  },
+  {
+    "id": 76,
+    "car": {
+      "car_make": "Ford",
+      "car_model": "300",
+      "car_year": 2000
+    },
+    "price": "$18194.41",
+    "total_sales": 1090
+  },
+  {
+    "id": 77,
+    "car": {
+      "car_make": "Chrysler",
+      "car_model": "C-Class",
+      "car_year": 2003
+    },
+    "price": "$5364.79",
+    "total_sales": 810
+  },
+  {
+    "id": 78,
+    "car": {
+      "car_make": "Volvo",
+      "car_model": "Eclipse",
+      "car_year": 2009
+    },
+    "price": "$7400.85",
+    "total_sales": 1133
+  },
+  {
+    "id": 79,
+    "car": {
+      "car_make": "GMC",
+      "car_model": "Camry",
+      "car_year": 2004
+    },
+    "price": "$8192.11",
+    "total_sales": 631
+  },
+  {
+    "id": 80,
+    "car": {
+      "car_make": "Honda",
+      "car_model": "C-Class",
+      "car_year": 2011
+    },
+    "price": "$10998.20",
+    "total_sales": 804
+  },
+  {
+    "id": 81,
+    "car": {
+      "car_make": "Bentley",
+      "car_model": "Jetta",
+      "car_year": 1969
+    },
+    "price": "$6036.96",
+    "total_sales": 629
+  },
+  {
+    "id": 82,
+    "car": {
+      "car_make": "Jeep",
+      "car_model": "Continental GT",
+      "car_year": 2008
+    },
+    "price": "$16593.91",
+    "total_sales": 328
+  },
+  {
+    "id": 83,
+    "car": {
+      "car_make": "Nissan",
+      "car_model": "C-Class",
+      "car_year": 2000
+    },
+    "price": "$18361.46",
+    "total_sales": 1177
+  },
+  {
+    "id": 84,
+    "car": {
+      "car_make": "Volkswagen",
+      "car_model": "Accord",
+      "car_year": 1969
+    },
+    "price": "$17147.95",
+    "total_sales": 1027
+  },
+  {
+    "id": 85,
+    "car": {
+      "car_make": "Subaru",
+      "car_model": "3 Series",
+      "car_year": 2010
+    },
+    "price": "$6708.32",
+    "total_sales": 578
+  },
+  {
+    "id": 86,
+    "car": {
+      "car_make": "Mazda",
+      "car_model": "Club Wagon",
+      "car_year": 2007
+    },
+    "price": "$19908.69",
+    "total_sales": 982
+  },
+  {
+    "id": 87,
+    "car": {
+      "car_make": "GMC",
+      "car_model": "TL",
+      "car_year": 1999
+    },
+    "price": "$14877.12",
+    "total_sales": 1003
+  },
+  {
+    "id": 88,
+    "car": {
+      "car_make": "Maybach",
+      "car_model": "Mazda6",
+      "car_year": 2010
+    },
+    "price": "$12511.20",
+    "total_sales": 544
+  },
+  {
+    "id": 89,
+    "car": {
+      "car_make": "Mercedes-Benz",
+      "car_model": "3 Series",
+      "car_year": 2007
+    },
+    "price": "$13100.36",
+    "total_sales": 614
+  },
+  {
+    "id": 90,
+    "car": {
+      "car_make": "Plymouth",
+      "car_model": "Continental GT",
+      "car_year": 2005
+    },
+    "price": "$13171.38",
+    "total_sales": 717
+  },
+  {
+    "id": 91,
+    "car": {
+      "car_make": "Bentley",
+      "car_model": "QX",
+      "car_year": 2008
+    },
+    "price": "$18100.28",
+    "total_sales": 809
+  },
+  {
+    "id": 92,
+    "car": {
+      "car_make": "Mazda",
+      "car_model": "QX",
+      "car_year": 2005
+    },
+    "price": "$8381.00",
+    "total_sales": 549
+  },
+  {
+    "id": 93,
+    "car": {
+      "car_make": "Bentley",
+      "car_model": "Cavalier",
+      "car_year": 2006
+    },
+    "price": "$16677.09",
+    "total_sales": 625
+  },
+  {
+    "id": 94,
+    "car": {
+      "car_make": "Lamborghini",
+      "car_model": "Quattroporte",
+      "car_year": 2004
+    },
+    "price": "$12953.77",
+    "total_sales": 370
+  },
+  {
+    "id": 95,
+    "car": {
+      "car_make": "Chrysler",
+      "car_model": "Aura",
+      "car_year": 2009
+    },
+    "price": "$7487.67",
+    "total_sales": 1049
+  },
+  {
+    "id": 96,
+    "car": {
+      "car_make": "BMW",
+      "car_model": "Roadrunner",
+      "car_year": 1999
+    },
+    "price": "$9790.39",
+    "total_sales": 1015
+  },
+  {
+    "id": 97,
+    "car": {
+      "car_make": "Maybach",
+      "car_model": "Grand Cherokee",
+      "car_year": 2007
+    },
+    "price": "$10951.73",
+    "total_sales": 949
+  },
+  {
+    "id": 98,
+    "car": {
+      "car_make": "GMC",
+      "car_model": "Cavalier",
+      "car_year": 2007
+    },
+    "price": "$14873.43",
+    "total_sales": 767
+  },
+  {
+    "id": 99,
+    "car": {
+      "car_make": "Nissan",
+      "car_model": "Camry",
+      "car_year": 2012
+    },
+    "price": "$19834.72",
+    "total_sales": 429
+  },
+  {
+    "id": 100,
+    "car": {
+      "car_make": "Land Rover",
+      "car_model": "1500",
+      "car_year": 1969
+    },
+    "price": "$16089.64",
+    "total_sales": 1059
+  }
+]
