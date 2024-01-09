@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-# futures module provides a couple of diff executors to run operations in parallel;
-# one for using threads and another for using processes.
+
 from concurrent import futures
 
 import argparse
@@ -63,13 +62,7 @@ def main():
     # Create the thumbnails directory
     if not os.path.exists('thumbnails'):
         os.mkdir('thumbnails')
-    # to be able to run things in parallel, we create an executor
-    # (process that's in charge of distributing the work among the diff workers.)
-    # example one
-    # executor = futures.ThreadPoolExecutor()
 
-    # example two
-    # by changing to ProcessPoolExecutor() we tell the futures module that we want to use processes instead of threads.
     executor = futures.ProcessPoolExecutor()
     for root, _, files in os.walk('images'):
         for basename in progress_bar(files):
@@ -77,7 +70,6 @@ def main():
                 continue
             executor.submit(process_file, root, basename)
     print('Waiting for all threads to finish.')
-    # this function waits until all the workers in the pool are done, and only then shuts down the executor.
     executor.shutdown()
     return 0
 
